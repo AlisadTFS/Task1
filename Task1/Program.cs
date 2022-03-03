@@ -38,9 +38,17 @@ namespace Task1
             {
                 case 1: 
                     Console.WriteLine("Январь");
+                    if (tmiddle > 0)
+                    {
+                        Console.WriteLine("Дождливая зима");
+                    }
                     break;
                 case 2: 
                     Console.WriteLine("Февраль");
+                    if (tmiddle > 0)
+                    {
+                        Console.WriteLine("Дождливая зима");
+                    }
                     break;
                 case 3: 
                     Console.WriteLine("Март");
@@ -71,6 +79,10 @@ namespace Task1
                     break;
                 case 12: 
                     Console.WriteLine("Декабрь");
+                    if (tmiddle > 0)
+                    {
+                        Console.WriteLine("Дождливая зима");
+                    }
                     break;
                 default:
                     Console.WriteLine("Не верно указан номер месяца");
