@@ -10,6 +10,12 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-        }
+            Console.Write("Введите минимальную температуру: ");
+            int tmin = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите максимальную температуру: ");
+            int tmax = Convert.ToInt32(Console.ReadLine());
+            int middle = (tmax + tmin) / 2;
+            Console.WriteLine($"Среднесуточная температура: {middle}");
+        }    
     }
 }
